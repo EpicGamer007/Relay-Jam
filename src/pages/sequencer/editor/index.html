@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Whisker - Editor</title>
+
+		<link rel="stylesheet" href="../global.css">
+		<link rel="stylesheet" href="style.css">
+
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://relay-jam.epicgamer007.repl.co/sequencer/ 'unsafe-inline'; style-src https://relay-jam.epicgamer007.repl.co/sequencer/ https://fonts.googleapis.com/css2; font-src https://fonts.gstatic.com/;connect-src *; media-src *;"/>
+
+		<script src="soundfont-player.min.js"></script>
+		<script src="preload.js"></script>
+		<script defer src="script.js"></script>
+	</head>
+	<body onload="init()">
+		<div id="wrapper">
+			<div id="settings">
+				<h2>Settings</h2>
+				<div class="combobox">
+
+					<h3>Instrument:</h3>
+					<select id="inst-sel"></select>
+					
+					<h3>Drum Kit:</h3>
+					<select id="kit-sel"></select>
+					
+					<h3>Tempo:</h3>
+					<input type="number" id="tempo" value="130" min="0" />
+					
+					<h3>Transpose:</h3>
+					<input type="number" id="transpose" value="0" min="-60" />
+					
+					<h3>Instrument Volume:</h3>
+					<input type="range" id="inst-vol" max="1" min="0" step="0.001" value="1"/>
+					
+					<h3>Drum Volume:</h3>
+					<input type="range" id="drum-vol" max="1" min="0" step="0.001" value="0.5"/>
+					
+					<form id="load-json">
+						<input type="text" id="actual-json" autocomplete="off">
+						<button type="submit">Load JSON</button>
+					</form>
+
+					<button id="copy-btn">Copy as JSON</button>
+				</div>
+			</div>
+
+			<div id="sequencer">
+				<h2>Sequencer</h2>
+				<div id="noteplate" class="plate"></div>
+				<div id="drumplate" class="plate"></div>
+				<div id="trackbar" class="plate"></div>
+			</div>
+		</div>
+	</body>
+</html>

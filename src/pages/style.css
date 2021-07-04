@@ -1,0 +1,14 @@
+body {
+	background-color: rgb(36, 36, 36);
+	color: ghostwhite;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+	color: ghostwhite;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

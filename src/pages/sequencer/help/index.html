@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Whisker - Help</title>
+		<link rel="stylesheet" href="../global.css">
+		<style>
+			a {
+				text-decoration: none;
+				color: #fafafaff;
+				font-style: italic;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+
+			ul {
+				list-style-type: none;
+			}
+
+			details {
+				margin: 20px;
+				outline: none;
+			}
+
+			details > summary:hover {
+				cursor: pointer;
+			}
+
+			details > p {
+				margin: 10px;
+			}
+
+		</style>
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://relay-jam.epicgamer007.repl.co/sequencer/; style-src https://relay-jam.epicgamer007.repl.co/sequencer/ 'unsafe-inline' https://fonts.googleapis.com/css2; font-src https://fonts.gstatic.com/;"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="main-wrapper">
+			<h1>Whisker</h1>
+			<h2>A simplistic and minimalistic music sequencer</h2>
+			<p>According to wikipedia, a music sequencer is <a href="https://en.wikipedia.org/wiki/Music_sequencer">a device or application software that can record, edit, or play back music</a>.</p>
+			<p>Whisker is just like that. It gives you an array of options to create your own music!</p>
+			<p>There are multiple options you have for utilizing this sequencer. You get the following options:</p>
+			<ul>
+				<li>
+					<details>
+						<summary>Choice of instrument</summary>
+						<p>There is a wide selection of instruments you can choose to be the main melody creator! (The list of instruments is <a href="https://raw.githubusercontent.com/danigb/soundfont-player/master/names/musyngkite.json">here</a>). There are 25 notes you can play for each instrument.</p>
+					</details>
+				</li>
+				<li>
+					<details>
+						<summary>Drum kit</summary>
+						<p>This is the type of drums you use to keep a beat/rythm in your song! There are three options, which includes 909, Trap, and Amen. Each drum kit comes with 5 choices for drum instruments.</p>
+					</details>
+				</li>
+				<li>
+					<details>
+						<summary>Transpose</summary>
+						<p>Choose the pitch of your music!</p>
+					</details>
+				</li>
+				<li>
+					<details>
+						<summary>Tempo</summary>
+						<p>This is the BPM (Beats Per Minute). Choose how fast you want your song to go.</p>
+					</details>
+				</li>
+				<li>
+					<details>
+						<summary>Instrument and Drum volume</summary>
+						<p>Choose how loud your primary instrument and Drum will be.</p>
+					</details>
+				</li>
+			</ul>
+
+			<p>There is also a Copy as JSON button, which you can use to not lose your work, as well share to show your friends! After copying the JSON, copy paste it into a file if you want to save it. To listen to this, just paste the JSON into the Load JSON textbox then click on the button to let it appear onto your screen! If you want to share with friends, just send them the JSON string.</p>
+			<p>Also make sure to press enter after entering a new number for Tempo and Transpose</p>
+
+			<h3><i>Happy composing!</i></h3>
+
+		</div>
+	</body>
+</html>

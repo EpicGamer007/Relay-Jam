@@ -1,0 +1,15 @@
+{
+	"name": "relay-jam-4",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "A showcase for our relay jam submissions",
+	"main": "index.js",
+	"scripts": {
+		"start": "node src"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}

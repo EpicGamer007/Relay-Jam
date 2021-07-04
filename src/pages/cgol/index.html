@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conway's Game Of Life</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="module" src="script.js"></script>
+		<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://relay-jam.epicgamer007.repl.co/cgol/; style-src https://relay-jam.epicgamer007.repl.co/cgol/;"/>
+	</head>
+
+	<body>
+
+		<main>
+			<div class="grid"></div>
+			<div class="help">
+				<h2>Conway's Game of Life</h2>
+				<p>
+					Conway's Game of Life (also known as CGoL) is cellular automation created by mathematician John Horton Conway in 1970
+				</p>
+				<p>
+					Depending on how many neighbors an element has, it survives or dies
+				</p>
+				<p>
+					This simulation adds a "Crazy" mode which changes the requirements for when to spawn a new cell
+				</p>
+			</div>
+			<div class="options">	
+				<button class="start">Start</button>
+				<label for="crazy">Crazy Mode: </label>
+				<input type="checkbox" name="crazy" id="crazy">
+			</div>
+		</main>
+
+	</body>
+
+</html>
