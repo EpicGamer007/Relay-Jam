@@ -67,7 +67,7 @@ function init() {
 			noteslot.dataset.note = n;
 			noteslot.dataset.en = "false";
 			noteslot.addEventListener("click", (evt) => {
-				toggleInstSlot(evt.toElement);
+				toggleInstSlot(evt.target);
 			});
 			noteplate.appendChild(noteslot);
 		}
@@ -92,7 +92,7 @@ function init() {
 			noteslot.dataset.drum = n;
 			noteslot.dataset.en = "false";
 			noteslot.addEventListener("click", (evt) => {
-				toggleDrumSlot(evt.toElement);
+				toggleDrumSlot(evt.target);
 			});
 			drumplate.appendChild(noteslot);
 		}
