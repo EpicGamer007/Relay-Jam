@@ -1,12 +1,13 @@
-# A showcase for the winning relay jam submissions perfected
+# Relay Jam
 
-INFO FOR Six and jdog, I have invited you to this repl, and from here we can work on perfecting our submissions :) and making them pog.
+This simple project showcases the projects which won replit's relay jam in the summer of 2021
 
-Copying over project from a Repl:
-- Download Repl as .zip
-- Upload it to a temp folder in this Repl
-- `unzip repl.zip` in Bash
-- Copy contents to /src.
+* [Announcement of Jam](https://replit.com/talk/announcements/Announcing-RELAY-JAM/140895)
+* [Announcement of Winning](https://replit.com/talk/announcements/RELAY-JAM-RESULTS/141782)
 
-Update: 7/3/2021
-Changed folder strucutre, nodejs maybe unnecesary and we could just use html repl. Seems like smartest choice, thoughts?
+This project includes...
+* Tetris (Incomplete) made with [kaboom.js](https://kaboomjs.com)
+* Conway's Game of Life (and a "Crazy mode" resulting from one of our bugs which we decided to keep as an option)
+* A Music Sequencer (Probably the most epic project here)
+
+Check it out at https://Relay-Jam.epicgamer007.repl.co
